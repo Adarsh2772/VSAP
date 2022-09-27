@@ -1,21 +1,21 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    
+
 <!-- Mirrored from demo.hasthemes.com/financo-preview/financo/blog-left-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Nov 2020 05:50:10 GMT -->
 <head>
-       
+
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Home || VSAP & Company</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <!-- Favicon Icon -->
          <link rel="shortcut icon" type="image/gif" href="{{asset('/dist/img/caicon.png')}}">
-        
+
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet"> 
-        
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+
         <!-- All css here -->
          <link rel="stylesheet" href="{{asset('/website/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{asset('/website/css/font-awesome.min.css')}}">
@@ -32,7 +32,7 @@
         .footer-row{
             margin-top: -55px;
         }
-        .header-icons{ 
+        .header-icons{
             margin-left: -70%;
         }
         .icon{
@@ -55,7 +55,7 @@
 
     }
     @media screen and (max-width: 767px) {
-        .header-icons{ 
+        .header-icons{
             margin-left: -52px;
         }
         .footer-logo{
@@ -83,7 +83,7 @@
       <h3>Useful Links</h3>
         <div class="footer-widget-content">
         <b style="font-size:16px;">Statutory Professional <br> Bodies: </b><br>
-           <span>  
+           <span>
             <ul class="footer-list">
                <li><a href="https://www.icai.org/"style="font-size: 15px">ICAI</a></li>
                <li><a href="https://www.icsi.edu/home/"style="font-size: 15px">ICSI</a></li>
@@ -108,14 +108,14 @@
      <div class="single-footer-widget mt-sm-30 footer3">
         <div class="footer-widget-content">
          <b style="font-size: 16px;">Miscellaneous </b>
-           <span> 
+           <span>
             <ul class="footer-list">
            <li><a href="https://cleartax.in/s/nsc-national-savings-certificate" style="font-size: 15px">NSC</a></li>
            <li><a href="https://bscacademy.com/" style="font-size: 15px">BSC</a></li>
            <li><a href="https://www.mcxindia.com/home" style="font-size: 15px">MCX</a></li>
            <li><a href="https://www.sebi.gov.in/" style="font-size: 15px">SEBI</a></li>
            <li><a href="https://uidai.gov.in/" style="font-size: 15px">UIDAI</a></li>
-        </ul> 
+        </ul>
       </span>
         </div>
         <div class="footer-widget-content">
@@ -146,7 +146,7 @@
             <li style="margin-bottom: 10px;"><a href="/services2" style="font-size: 16px;">NRI Services</a></li>
             <li style="margin-bottom: 10px;"><a href="/services2" style="font-size: 16px;">Payroll Service</a></li>
             <li style="margin-bottom: 10px;"><a href="/services2" style="font-size: 16px;">Subsidy Consulting</a></li>
-            
+
          </ul>
         </span>
       </div>
@@ -171,14 +171,14 @@
       <div class="single-footer-widget">
         <div class="header-icons" style="margin-top: 20%;">
 
-            <a href="https://www.facebook.com/vsap.company/?view_public_for=106605151273083" target="_blank"><i class="fa fa-facebook icon" style="margin-right: -25px;"></i></a>
+            <a href="https://www.facebook.com/vsap.company/?view_public_for=106605151273083" target="_blank"><i class="fa fa-facebook icon" style="width: 40px;"></i></a>
 
-            <a href="https://twitter.com/AndVsap" target="_blank"><i class="fa fa-twitter icon" style="margin-right: -25px;"></i></a>
+            <a href="https://twitter.com/AndVsap" target="_blank"><i class="fa fa-twitter icon" style="width: 40px;"></i></a>
 
-            <a href="https://www.linkedin.com/company/vsap-company/?viewAsMember=true" target="_blank"><i class="fa fa-linkedin icon" style="margin-right: -25px;"></i></a>
+            <a href="https://www.linkedin.com/company/vsap-company/?viewAsMember=true" target="_blank"><i class="fa fa-linkedin icon" style="width: 40px;"></i></a>
 
-            <a href="\login" target="_blank"> <i class="fa fa-user icon" style="margin-right: -25px;"></i></a>
-        </div>                                         
+            {{-- <a href="\login" target="_blank"> <i class="fa fa-user icon" style="margin-right: -25px;"></i></a> --}}
+        </div>
     </div>
    </div>
   </div>
@@ -204,7 +204,7 @@
         <script src="{{asset('/website/js/ajax-mail.js')}}"></script>
         <script src="{{asset('/website/js/jquery.ajaxchimp.min.js')}}"></script>
         <script src="{{asset('/website/js/jquery.magnific-popup.js')}}"></script>
-        <script src="{{asset('/website/js/counterup.js')}}"></script> 
+        <script src="{{asset('/website/js/counterup.js')}}"></script>
         <script src="{{asset('/website/js/plugins.js')}}"></script>
         <script src="{{asset('/website/js/main.js')}}"></script>
     </body>

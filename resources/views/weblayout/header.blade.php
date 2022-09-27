@@ -1,21 +1,21 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    
+
 <!-- Mirrored from demo.hasthemes.com/financo-preview/financo/blog-left-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Nov 2020 05:50:10 GMT -->
 <head>
-       
+
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Services || VSAP & Company</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <!-- Favicon Icon -->
          <link rel="shortcut icon" type="image/gif" href="{{asset('/dist/img/caicon.png')}}">
-        
+
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet"> 
-        
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+
         <!-- All css here -->
          <link rel="stylesheet" href="{{asset('/website/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{asset('/website/css/font-awesome.min.css')}}">
@@ -43,7 +43,7 @@
                 position: absolute;
                 bottom: -19px;
                 left: -20px;
-                height: 54px;
+                height: 46px;
                 margin-left: -20px;
             }
     .logo{
@@ -52,7 +52,7 @@
     .header-main.bg-green.white:after{
              left: 40%;
         }
-        
+
     }
 </style>
 <header class="header-area" >
@@ -62,7 +62,7 @@
             <div class="col-lg-4 col-md-3">
                 <strong><span>Welcome to VSAP & Company</span></strong>
             </div>
-          
+
             </div>
          </div>
 	   </div>
@@ -91,11 +91,11 @@
                         <span>You can mail us</span>
                     </div>
                 </div>
-                </div>  
-                </div>    
+                </div>
+                </div>
 				</div>
 				</div>
-          
+
 	 <div class="mainmenu-area fixed header-sticky d-lg-block d-md-block d-none">
      <div class="container" style="padding-left: 40%;">
      <div class="row">
@@ -142,12 +142,12 @@
              <li><a href="/contact">CONTACT</a></li>
             </ul>
            </nav>
-        </div>                  
+        </div>
        </div>
       </div>
      </div>
    </div>
-            <!-- Mobile Menu Area end --> 
+            <!-- Mobile Menu Area end -->
  </header>
 
 

@@ -1,18 +1,18 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Models\Http\Controllers\Auth\LoginController;
-use App\Models\Http\Controllers\SliderController;
-use App\Models\Http\Controllers\HomepageController;
-use App\Models\Http\Controllers\PartnerController;
-use App\Models\Http\Controllers\ClientController;
-use App\Models\Http\Controllers\ValueController;
-use App\Models\Http\Controllers\ServiceController;
-use App\Models\Http\Controllers\ContactController;
-use App\Models\Http\Controllers\FooterController;
-use App\Models\Http\Controllers\HomeController;
-use App\Models\Http\Controllers\VsapController;
-use App\Models\Http\Controllers\EmailController;
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\SliderController;
+use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\PartnerController;
+use App\Http\Controllers\ClientController;
+use App\Http\Controllers\ValueController;
+use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\FooterController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\VsapController;
+use App\Http\Controllers\EmailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -226,6 +226,10 @@ Route::post('/storefooter', [FooterController::class, 'store']);
 Route::post('/updatefooter', [FooterController::class, 'update']);
 
 Route::get('/destroyfooter/{id}', [FooterController::class, 'destroy']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Auth::routes();
 
