@@ -26,7 +26,7 @@
             }
 
             .bg-overlay-dark {
-                background-image: url('dist/img/business2.jpg');
+                background-image: url({{asset('dist/img/business2.jpg')}});
                 background-size: cover;
             }
 

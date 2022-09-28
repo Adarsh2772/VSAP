@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    
+
 
 <head>
         <meta charset="utf-8">
@@ -8,13 +8,13 @@
         <title>Services || VSAP & Company</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <!-- Favicon Icon -->
         <link rel="shortcut icon" type="image/x-icon" href="{{asset('dist/img/caicon.png')}}">
-        
+
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet"> 
-        
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+
         <!-- All css here -->
         <link rel="stylesheet" href="{{asset('website/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{asset('website/css/font-awesome.min.css')}}">
@@ -30,16 +30,16 @@
     @media screen and (min-width: 767px) {
 
     .bg-overlay-dark
-         {   background-image: url('dist/img/business2.jpg'); 
+         {   background-image: url({{asset('dist/img/business2.jpg')}});
              background-size: cover;
          }
-     .txt{ text-align: justify; 
+     .txt{ text-align: justify;
             font-size: 15px;}
 
       .sidebar{margin-bottom: -60px;
         margin-top: -35px;}
 
-      
+
     .categories .btn:hover{
             border-bottom: 1px solid #007bff ;
             font-size: 20px;
@@ -47,24 +47,24 @@
     .categories .btn:hover a {
                 color: #000;
                 cursor: pointer;
-                
+
             }
     .categories .active {color: #007bff;
           background-color: transparent;
           background-image: none;
-          border-color: #007bff; 
+          border-color: #007bff;
           height: 45px;
           padding-top: 11px;
           width: 100%;
          }
-   
+
 }
 @media screen and (max-width: 767px) {
   .bg-overlay-dark{
        margin-top: -10px;
        margin-bottom: -85px;
     }
-  .txt{ text-align: justify; 
+  .txt{ text-align: justify;
         font-size: 15px;}
 
   .header1{margin-top: -24px;}
@@ -80,29 +80,29 @@
   .categories .btn:hover a {
             color: #000;
             cursor: pointer;
-                
+
     }
   .categories .active {color: #007bff;
           background-color: transparent;
           background-image: none;
-          border-color: #007bff; 
+          border-color: #007bff;
           height: 45px;
           padding-top: 11px;
           width: 100%;
          }
-    
-  } 
+
+  }
 
 </style>
 
     </head>
     <body>
-        
-      
+
+
          {{--include style--}}
       @include('weblayout.header')
-       
- <div class="breadcrumbs-area bg-overlay-dark"> 
+
+ <div class="breadcrumbs-area bg-overlay-dark">
    <div class="container">
     <div class="row">
      <div class="col-12">
@@ -127,7 +127,7 @@
          <div class="single-sidebar-widget fix" id="myDiv" style="margin-top: -70px;width: 85%;">
           <div class="sidebar-widget-title">
             <h5 class="header1"style="font-size:25px;">Services</h5>
-          </div>  
+          </div>
         <ul class="categories">
           <li class="btn active"><a href="#" onclick="audit()" style="color: #023f62;font-size: 17px;margin-left:-20px;" class="">Audit & Assurance</a></li>
           <li class="btn"><a href="#" onclick="acc()" style="color: #023f62;font-size: 17px;margin-left:-72px;">Accounting</a></li>
@@ -142,11 +142,11 @@
         </ul>
        </div>
       </div>
-  
+
 
     <div class="col-md-9 col-12" id="audit" style="margin-top: -30px; display: block;">
       <h4 class="service2" style="color: #023f62;">Audit & Assurance</h4>
-      <div class="card-body" style="margin-top: 15px;">     
+      <div class="card-body" style="margin-top: 15px;">
       <p class="txt">We take care of all audit requirements, whether internal, external or statutory. We implement the best industry standards in carrying our audit processes and assist you with tailor-made solutions to meet your specific audit need. Our experienced team will evaluate the control over the internal compliance mechanism of your organization and ensure that all reporting needs are complied with.</p>
       <ul style="list-style-type: disc;font-size: 15px;padding-top: 5px"><b>We conduct the following types of audits - </b>
         <li>Statutory Audit</li>
@@ -162,8 +162,8 @@
     </div>
 
     <div class="col-md-9 col-12" id="acc" style="margin-top: -30px; display: none;">
-    <h4 class="service2" style="color: #023f62;">Accounting</h4>   
-    <div class="card-body" style="margin-top: 15px;">     
+    <h4 class="service2" style="color: #023f62;">Accounting</h4>
+    <div class="card-body" style="margin-top: 15px;">
     <p class="txt">We offer full range of book keeping & accountancy services for small and mid-sized businesses. Based on your business model, we develop unique and simple method of accounting in compliance with Indian Accounting Standards. All of our accounting services and solutions are scalable during periods of peak activity, and then can be scaled back when they are no longer required. By partnering with us to help you manage key non-core functions, you can concentrate efforts on maximizing your core business, which is essential to businesses that are positioned for growth. Accounting Services includes the data entry and data transcription services across industries. With the process of accounting, we ensure timely payments of various taxes, viz. Advance Income Tax, Monthly Service Tax, Periodic VAT, excise and any other taxes wherever applicable. The accounting process is provided is in line with various statutes, accounting standards to capture necessary information and tax liabilities. This includes accounting for manufacturers, traders, service providers, etc. </p>
     <ul style="list-style-type: disc;font-size: 15px;padding-top: 5px;font-size: 15px"><b>Features of accounting services -</b>
       <li>Understand the business transactions</li>
@@ -174,12 +174,12 @@
       <li>Ease in ascertaining GST, advance tax, TDS, etc.</li>
       <li>Extended to manufacturers, traders, service providers, etc.</li>
     </ul>
-    </div>  
+    </div>
   </div>
 
   <div class="col-md-9 col-12" id="register" style="margin-top: -30px; display: none;">
-    <h4 class="service2" style="color: #023f62;">Registrations</h4>   
-  <div class="card-body" style="margin-top: 15px;">     
+    <h4 class="service2" style="color: #023f62;">Registrations</h4>
+  <div class="card-body" style="margin-top: 15px;">
     <p class="txt">In India there are various laws at National, State and Local level where your organization is supposed to comply with. We help you to understand applicability of these laws to your business, liaison with Regulatory, Government authorities and ensure your organization is complying with the necessary statutes. Drafting of agreements, MoUs, offers and communications are important from legal and compliance point of view. We consult in drafting, vetting and registration of various important documents</p>
     <ul style="list-style-type: disc;font-size: 15px;padding-top: 5px;font-size: 15px"><b>The business registrations / license involves –</b>
     <li>PAN – Permanent Account Number</li>
@@ -203,7 +203,7 @@
 
   <div class="col-md-9 col-12" id="process" style="margin-top: -30px; display: none;">
     <h4 class="service2" style="color: #023f62;">Process Set-up</h4>
-    <div class="card-body" style="margin-top: 15px;">     
+    <div class="card-body" style="margin-top: 15px;">
     <p class="txt">We provide the consultancy services for starting a new business, opening new branches, expansion of existing business, setting up the process flow and training of new staff for necessary activities.</p>
     <ul style="list-style-type: disc;font-size: 15px;padding-top: 5px;font-size: 15px"><b>Steps Involved in process setup -</b>
       <li>Understanding / Analysis of your business model</li>
@@ -216,8 +216,8 @@
   </div>
 
    <div class="col-md-9 col-12" id="gst" style="margin-top: -30px; display: none;">
-    <h4 class="service2" style="color: #023f62;">GST</h4> 
-    <div class="card-body" style="margin-top: 15px;">     
+    <h4 class="service2" style="color: #023f62;">GST</h4>
+    <div class="card-body" style="margin-top: 15px;">
     <p class="txt"> GST has replaced most Central and State level indirect taxes like VAT, Service tax, Excise etc from 1st July, 2017. We understand your business products and transactions and consult in GST applicability. Along with consulting we extend our services to GST compliant accounting, filing of GST returns and GST audit.</p>
     <ul style="list-style-type: disc;font-size: 15px;padding-top: 5px;font-size: 15px"><b>Main services under GST are –</b>
       <li>GST registration</li>
@@ -233,7 +233,7 @@
 
   <div class="col-md-9 col-12" id="project" style="margin-top: -30px; display: none;">
    <h4 class="service2" style="color: #023f62;">Project & Retail Finance</h4>
-    <div class="card-body" style="margin-top: 15px;">     
+    <div class="card-body" style="margin-top: 15px;">
       <p class="txt">Financing a business at best cost is of utmost importance. We understand your requirement and provide best suitable, economical option to fulfill your requirements. We have internal team for documentation and appraisal of your requirements. We have tie-ups with licensed consultants for legal and technical aspects.Our partner CA Vaibhav R Mayur has 5 years banking experience and other employees with rich experience from credit appraisal, documentation, legal and technical aspects. Since 2013 till December-2017, we have successfully consulted and disbursed proposals having total value over 100 Crores.</p>
       <ul style="list-style-type: disc;font-size: 15px;padding-top: 5px;font-size: 15px"><b>Our services includes –</b>
         <li>Consulting – Strategic project finance</li>
@@ -253,7 +253,7 @@
 
     <div class="col-md-9 col-12" id="services" style="margin-top: -30px; display: none;">
     <h4 class="service2" style="color: #023f62;">NRI Services</h4>
-    <div class="card-body" style="margin-top: 15px;">     
+    <div class="card-body" style="margin-top: 15px;">
     <ul style="list-style-type: disc;font-size: 15px;padding-top: 5px;font-size: 15px"><b>We conduct the following types of audits-</b>
       <li>Registration for tax purpose (PAN / TAN / GST)</li>
       <li>Tax planning for planned transaction</li>
@@ -262,12 +262,12 @@
       <li>Filing Income Tax return</li>
       <li>Consulting on tax saving options</li>
     </ul>
-    </div> 
+    </div>
   </div>
 
    <div class="col-md-9 col-12" id="payroll" style="margin-top: -30px; display: none;">
    <h4 class="service2" style="color: #023f62;">Payroll Service</h4>
-    <div class="card-body" style="margin-top: 15px;">     
+    <div class="card-body" style="margin-top: 15px;">
     <ul style="list-style-type: disc;font-size: 15px;padding-top: 5px">
      <li>Payroll Processing</li>
      <li>Staff tax planning and managing investment declaration for TDS purpose </li>
@@ -281,7 +281,7 @@
 
   <div class="col-md-9 col-12" id="subsidy" style="margin-top: -30px; display: none;">
     <h4 class="service2" style="color: #023f62;">Subsidy Consulting</h4>
-    <div class="card-body"style="margin-top: 15px;">     
+    <div class="card-body"style="margin-top: 15px;">
     <ul style="list-style-type: disc;font-size: 15px;padding-top: 5px"><b>We offer consultancy in –</b>
      <li>Central Government – Capital investment subsidy</li>
      <li>Central Government – Textile Industry’s subsidy </li>
@@ -294,9 +294,9 @@
   </div>
 
   <div class="col-md-9 col-12" id="real" style="margin-top: -30px; display: none;">
-   <h4 class="service2" style="color: #023f62;">RERA (Real Estate Regulatory Authority)</h4> 
-    <div class="card-body"> 
-    <p class="txt">We aims at providing all services under The Real Estate ( Regulation & Development ) Act, 2016 to the promoters , agents including consultancy services to various stakeholders from registration of projects and all other matters, related and ancillary to the registration of projects.</p>    
+   <h4 class="service2" style="color: #023f62;">RERA (Real Estate Regulatory Authority)</h4>
+    <div class="card-body">
+    <p class="txt">We aims at providing all services under The Real Estate ( Regulation & Development ) Act, 2016 to the promoters , agents including consultancy services to various stakeholders from registration of projects and all other matters, related and ancillary to the registration of projects.</p>
     <ul style="list-style-type: disc;font-size: 15px;padding-top: 5px"><b>Our services includes -</b>
      <li>Consultation</li>
      <li>Preparation of Quarterly CA certificates </li>
@@ -307,11 +307,11 @@
 </div>
 </div>
 
-</div> 
+</div>
 </div>
 </div>
 
-    
+
 
 <script>
 function acc() {
@@ -325,7 +325,7 @@ function acc() {
   var p1 = document.getElementById("payroll");
   var s1 = document.getElementById("subsidy");
   var r1 = document.getElementById("real");
-  
+
   if (x.style.display === "none") {
     x.style.display = "block";
     y.style.display = "none";
@@ -337,8 +337,8 @@ function acc() {
     p1.style.display = "none";
     s1.style.display = "none";
     r1.style.display = "none";
-  
-   } 
+
+   }
    // else {
   //   x.style.display = "none";
   //   y.style.display = "none";
@@ -350,7 +350,7 @@ function acc() {
   //   p1.style.display = "none";
   //   s1.style.display = "none";
   //   r1.style.display = "none";
-  
+
   // }
 }
 
@@ -377,7 +377,7 @@ function audit() {
     s1.style.display = "none";
     r1.style.display = "none";
 
-  } 
+  }
 }
 
 
@@ -403,7 +403,7 @@ function register() {
     p1.style.display = "none";
     s1.style.display = "none";
     r1.style.display = "none";
-  } 
+  }
 }
 
 function process() {
@@ -428,7 +428,7 @@ function process() {
     p1.style.display = "none";
     s1.style.display = "none";
     r1.style.display = "none";
-  } 
+  }
 }
 
 function gst() {
@@ -453,7 +453,7 @@ function gst() {
     p1.style.display = "none";
     s1.style.display = "none";
     r1.style.display = "none";
-  } 
+  }
 }
 
 function project() {
@@ -478,7 +478,7 @@ function project() {
     p1.style.display = "none";
     s1.style.display = "none";
     r1.style.display = "none";
-  } 
+  }
 }
 
 function services() {
@@ -503,7 +503,7 @@ function services() {
     p1.style.display = "none";
     s1.style.display = "none";
     r1.style.display = "none";
-  } 
+  }
 }
 
 function payroll() {
@@ -528,7 +528,7 @@ function payroll() {
     p1.style.display = "block";
     s1.style.display = "none";
     r1.style.display = "none";
-  } 
+  }
 }
 
 function subsidy() {
@@ -553,7 +553,7 @@ function subsidy() {
     p1.style.display = "none";
     s1.style.display = "block";
     r1.style.display = "none";
-  } 
+  }
 }
 function real() {
   var x = document.getElementById("acc");
@@ -577,7 +577,7 @@ function real() {
     p1.style.display = "none";
     s1.style.display = "none";
     r1.style.display = "block";
-  } 
+  }
 }
 
 var header = document.getElementById("myDiv");
@@ -592,6 +592,6 @@ for (var i = 0; i < btns.length; i++) {
 
 </script>
 
-@include('weblayout.footer')      
+@include('weblayout.footer')
  </body>
 </html>
