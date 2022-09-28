@@ -57,6 +57,7 @@ class VsapController extends Controller
             'contact_no'=>'required',
             'email'=>'required|unique:vsaps',
             'experiance'=>'required|max:2',
+            'fileToUpload' => 'required|mimes:pdf,doc,docx',
             'cpatchaTextBox'=>'required'
         ]);
 
@@ -67,10 +68,13 @@ class VsapController extends Controller
     $vsap->email= $request->input('email');
     $vsap->exp= $request->input('experiance');
 
-    $cofile = $request->file('fileToUpload');
-    $prefile = rand() . '.' . $cofile->getClientOriginalExtension();
-    $cofile->move(public_path("upload"), $prefile);
-    $vsap->fileToUpload= $prefile;
+    // $cofile = $request->file('fileToUpload');
+    // $prefile = rand() . '.' . $cofile->getClientOriginalExtension();
+    // $cofile->move(public_path("upload"), $prefile);
+    // $vsap->fileToUpload= $prefile;
+
+    $filename = $request->file('fileToUpload')->getSize().rand().'.'.$request->file('fileToUpload')->extension();
+    $vsap->fileToUpload = $request->file('fileToUpload')->storeAs('CareerDocuments', $filename);
 
     $vsap->save();
 

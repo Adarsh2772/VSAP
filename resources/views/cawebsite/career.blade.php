@@ -169,12 +169,12 @@
                                             placeholder="Email" required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="number" class="form-control" id="exp" name="experiance"
+                                        <input type="number" class="form-control" id="exp" max="99" name="experiance"
                                             placeholder="Experience" required><br>
                                     </div>
                                     <div class="form-group ">
                                         <input type="file" class="form-control" name="fileToUpload" id="fileToUpload"
-                                            class="img" accept="image/png, image/jpg, image/jpeg,.doc,.docx, .pdf"
+                                            class="img" accept=".doc,.docx, .pdf"
                                             required>
                                         <center>
                                             <blink>(ONLY INSERT FILES WHICH HAVE EXTENSION OF DOCX AND PDF.)</blink>
@@ -218,17 +218,17 @@
             var fileInput = document.getElementById('fileToUpload');
             var filePath = fileInput.value;
 
-            var allowedext = /(\.jpg|\.jpeg|\.png|\.doc|\.docx|\.pdf)$/i;
+            var allowedext = /(\.doc|\.docx|\.pdf)$/i;
 
             if (!allowedext.exec(filePath)) {
-                alert('PDF,DOC,JPEG or PNG File Format only.');
+                alert('PDF,DOC or DOCX File Format only.');
                 fileInput.value = '';
                 return false;
             }
 
             if (this.files[0].size / (1024 * 1024) >= 2) {
 
-                alert('Please select image size less than 2 MB.');
+                alert('Please select file size less than 2 MB.');
 
                 $('#fileToUpload').val('');
             }
