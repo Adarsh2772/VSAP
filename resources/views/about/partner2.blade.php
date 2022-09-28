@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Favicon Icon -->
-         <link rel="shortcut icon" type="image/gif" href="{{asset('dist/img/caicon.png')}}">
+         <link rel="shortcut icon" type="image/gif" href="{{asset(' dist/img/logo.jpg')}}">
 
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">

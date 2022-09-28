@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    
+
 <!-- Mirrored from demo.hasthemes.com/financo-preview/financo/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Nov 2020 05:49:20 GMT -->
 <head>
         <meta charset="utf-8">
@@ -8,13 +8,13 @@
         <title>Our Partners || VSAP & Company</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <!-- Favicon Icon -->
-         <link rel="shortcut icon" type="image/gif" href="dist/img/caicon.png">
-		
+         <link rel="shortcut icon" type="image/gif" href=" dist/img/logo.jpg">
+
 		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet"> 
-		
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+
 		  <style type="text/css">
          @media screen and (min-width: 600px) {
           .information-text{
@@ -23,10 +23,10 @@
         }
          .img1{
           width: 411px;
-          height: 314px; 
+          height: 314px;
         }
 
-    
+
     }
     @media screen and (max-width: 600px) {
           .information-text{
@@ -40,20 +40,20 @@
             margin-bottom: 90px;
             margin-left: -75px;
           }
-        }  
+        }
       </style>
 
 
-    
+
     </head>
     <body>
-		
+
         {{--include style--}}
         @include('weblayout.header')
 
 		<!-- Header Area End -->
 		<!-- breadcrumbs Area Start-->
-	<div class="breadcrumbs-area bg-overlay-dark" style="background-image: url('dist/img/canew2.jpg'); background-size: cover;">">    
+	<div class="breadcrumbs-area bg-overlay-dark" style="background-image: url('dist/img/canew2.jpg'); background-size: cover;">">
 	 <div class="container">
 	   <div class="row">
 		 <div class="col-12">
@@ -72,7 +72,7 @@
       </div>
 		<!-- breadcrumbs Area End -->
       <style type="text/css">
-       
+
       </style>
 
 
@@ -80,7 +80,7 @@
 
    <div class="bg-light fix" style="margin-top: 30px" >
      <div class="information-chart" style="width: 40%">
-      <img src="dist/img/vaibhav.jpg" class="img1" > 
+      <img src="dist/img/vaibhav.jpg" class="img1" >
     </div>
     <div class="information-text" >
       <div class="container" style="margin-top: 20px">
@@ -94,7 +94,7 @@
             <p align="left" class="col-md-6">
             <b>Email id :</b> mayur.vaibhav@gmail.com</p>
             <p  class="col-md-6">
-            <b>Mobile no :</b> +91 8408080801</p> 
+            <b>Mobile no :</b> +91 8408080801</p>
         </span>
         <ul style="text-align: left;">
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>Membership No.: 134211</li>
@@ -103,13 +103,13 @@
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>Qualified Information Security Auditor from ICAI</li>
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>Qualified Lead Auditor for ISO 9001:2008</li>
          <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>He is in charge of our head office and its administration.</li>
-        </ul>                     
+        </ul>
         </div>
         </div>
         </div>
-       
+
       <div class="bg-light fix" style="margin-top: 30px" >
-     
+
     <div class="information-text" >
       <div class="container" style="margin-top: 20px">
         <div class="about-text">
@@ -122,7 +122,7 @@
             <p align="left" class="col-md-6">
             <b>Email id :</b> casachinmalpani@gmail.com</p>
             <p  class="col-md-6">
-            <b>Mobile no :</b>+91 7387777150</p> 
+            <b>Mobile no :</b>+91 7387777150</p>
         </span>
         <ul style="text-align: left;">
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>Membership No.: 150909</li>
@@ -130,17 +130,17 @@
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>He is expertise in the field of Direct and Indirect Taxation, Audit & Assurance and Business set up services</li>
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>He is in charge of our GST department and taking care of bank audits as well as co-ordination with other branches.</li>
 
-        </ul>                     
+        </ul>
         </div>
         </div>
       <div class="information-chart" style="width: 40%">
-      <img src="dist/img/sachin.jpg" class="img1" > 
+      <img src="dist/img/sachin.jpg" class="img1" >
         </div>
       </div>
 
       <div class="bg-light fix" style="margin-top: 30px" >
      <div class="information-chart" style="width: 40%">
-      <img src="dist/img/akshay.jpg"  class="img1" > 
+      <img src="dist/img/akshay.jpg"  class="img1" >
     </div>
     <div class="information-text">
       <div class="container" >
@@ -154,22 +154,22 @@
             <p align="left" class="col-md-6">
             <b>Email id :</b> akshay@vsap.co.in, caakshaybihani@gmail.com</p>
             <p  class="col-md-6">
-            <b>Mobile no :</b> +91 8408080801</p> 
+            <b>Mobile no :</b> +91 8408080801</p>
         </span>
         <ul style="text-align: left;">
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>Membership No.: 155081</li>
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>Mr. Akshay possesses active interpersonal skills and believes in value added services.</li>
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>He has special interest in Project Financing and all other Financial Consultancy Services in addition to Direct Taxation.</li>
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>He is incharge of Ahmednagar branch and taking care of Aurangabad and Ahmednagar locations</li>
-        
-        </ul>                     
+
+        </ul>
         </div>
         </div>
         </div>
-       
-       
+
+
      <div class="bg-light fix" style="margin-top: 30px" >
-     
+
     <div class="information-text">
       <div class="container" style="margin-top: 20px">
         <div class="about-text">
@@ -182,7 +182,7 @@
             <p align="left" class="col-md-6">
             <b>Email id :</b> swapnil@vsap.co.in, caswampnilrathi@gmail.com</p>
             <p  class="col-md-6">
-            <b>Mobile no :</b>+91 9405015942</p> 
+            <b>Mobile no :</b>+91 9405015942</p>
         </span>
         <ul style="text-align: left;">
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>Membership No.: 147026</li>
@@ -190,18 +190,18 @@
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>He is incharge of Shirpur, Dhule branch and taking care of Dhule, Jalgaon, Nasik and nearby areas.</li>
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>He is an expert in carrying out co-operative as well as nationalized bank audits.</li>
 
-        </ul>                     
+        </ul>
         </div>
         </div>
       <div class="information-chart" style="width: 40%">
-      <img src="dist/img/swapnil.jpg" class="img1" > 
+      <img src="dist/img/swapnil.jpg" class="img1" >
         </div>
       </div>
 
 
        <div class="bg-light fix" style="margin-top: 30px;margin-bottom: 100px"  >
      <div class="information-chart" style="width: 40%">
-      <img src="dist/img/aakansha.png"  class="img1" > 
+      <img src="dist/img/aakansha.png"  class="img1" >
     </div>
     <div class="information-text">
       <div class="container" >
@@ -216,19 +216,19 @@
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>CA Aakansha is a fresh CA and carries strong academic base.</li>
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>She has expertise in Project report preparation and RERA. She has special interest in Project financing and other financial consultancy services along with direct and indirect taxation.</li>
         <li><i class="fa fa-check-circle-o" style="margin-right: 10px;color: #798fd1"></i>She is in fulltime employment with our firm since 2019.</li>
-        
-        </ul>                     
+
+        </ul>
         </div>
         </div>
         </div>
-       
-
-            
 
 
 
-   
-      
+
+
+
+
+
 
 
    {{--include style--}}

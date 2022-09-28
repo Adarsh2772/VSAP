@@ -1,21 +1,21 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    
-<!-- Mirrored from demo.hasthemes.com/financo-preview/financo/blog-left-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Nov 2020 05:50:10 GMT -->
+
+
 <head>
-       
+
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Services || VSAP & Company</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <!-- Favicon Icon -->
-         <link rel="shortcut icon" type="image/gif" href="dist/img/caicon.png">
-        
+         <link rel="shortcut icon" type="image/gif" href=" dist/img/logo.jpg">
+
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet"> 
-        
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+
         <!-- All css here -->
         <link rel="stylesheet" href="website/css/bootstrap.min.css">
         <link rel="stylesheet" href="website/css/font-awesome.min.css">
@@ -30,7 +30,7 @@
     @media screen and (min-width: 767px) {
 
     .bg-overlay-dark
-         {   background-image: url('dist/img/canew2.jpg'); 
+         {   background-image: url('dist/img/canew2.jpg');
              background-size: cover;
          }
     .txt{text-align: justify; }
@@ -54,7 +54,7 @@
           font-size: 17px;
           color: white;
         }
-  h3:hover{text-decoration: underline;}  
+  h3:hover{text-decoration: underline;}
   .service{
             width: 70px;
             height: 60px;
@@ -83,14 +83,14 @@
   }
 
 </style>
-   
+
     </head>
     <body>
       {{--include style--}}
       @include('weblayout.header')
-       
-      <div class="breadcrumbs-area bg-overlay-dark"> 
-      
+
+      <div class="breadcrumbs-area bg-overlay-dark">
+
    <div class="container">
      <div class="row">
      <div class="col-12">
@@ -99,7 +99,7 @@
         <div class="breadcrumbs-bar">
           <ul class="breadcrumbs">
           <li><a href="/home">HOME</a></li>
-            
+
           </ul>
         </div>
         </div>
@@ -107,14 +107,14 @@
       </div>
      </div>
     </div>
-       
+
 <div class="asked-area pt-60 pb-85">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
       <div class="default-panel">
-      
-     <div class="accordion" id="accordionExample">  
+
+     <div class="accordion" id="accordionExample">
       <div class="card">
       <div class="card-header" id="headingOne">
       <h4 class="card-title" >
@@ -122,11 +122,11 @@
       <span></span><strong>Audit & Assurance</strong>
       </a>
       </h4>
-      </div>    
+      </div>
       <div id="one" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">     
+      <div class="card-body">
       <p class="txt">We take care of all audit requirements, whether internal, external or statutory. We implement the best industry standards in carrying our audit processes and assist you with tailor-made solutions to meet your specific audit need. Our experienced team will evaluate the control over the internal compliance mechanism of your organization and ensure that all reporting needs are complied with.</p>
-      <ul class="list">We conduct the following types of audits - 
+      <ul class="list">We conduct the following types of audits -
         <li>Statutory Audit</li>
         <li>Internal Audit</li>
         <li>Concurrent Audit for banks as well as companies</li>
@@ -137,7 +137,7 @@
       </ul>
         <p class="txt">We ensure, the audit is carried out with a view to provide measurable value addition to the cost, process TAT and non-compliances if any.</p>
       </div>
-      </div>           
+      </div>
     </div>
     <div class="card">
     <div class="card-header" role="tab" id="headingTwo">
@@ -146,9 +146,9 @@
       <span></span><!-- <img src="dist/img/accounting.png" class="service"> --> <strong id="acc">Accounting</strong>
       </a>
     </h4>
-    </div>    
+    </div>
     <div id="two" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordionExample">
-    <div class="card-body">     
+    <div class="card-body">
     <p class="txt">We offer full range of book keeping & accountancy services for small and mid-sized businesses. Based on your business model, we develop unique and simple method of accounting in compliance with Indian Accounting Standards. All of our accounting services and solutions are scalable during periods of peak activity, and then can be scaled back when they are no longer required. By partnering with us to help you manage key non-core functions, you can concentrate efforts on maximizing your core business, which is essential to businesses that are positioned for growth. Accounting Services includes the data entry and data transcription services across industries. With the process of accounting, we ensure timely payments of various taxes, viz. Advance Income Tax, Monthly Service Tax, Periodic VAT, excise and any other taxes wherever applicable. The accounting process is provided is in line with various statutes, accounting standards to capture necessary information and tax liabilities. This includes accounting for manufacturers, traders, service providers, etc. </p>
     <ul class="list">Features of accounting services -
       <li>Understand the business transactions</li>
@@ -159,7 +159,7 @@
       <li>Ease in ascertaining GST, advance tax, TDS, etc.</li>
       <li>Extended to manufacturers, traders, service providers, etc.</li>
     </ul>
-    </div> 
+    </div>
     </div>
     </div>
   <div class="card">
@@ -169,9 +169,9 @@
       <span></span><strong> <!-- <img src="dist/img/register.png" class="service"> -->Registrations</strong>
       </a>
       </h4>
-    </div>    
+    </div>
     <div id="three" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordionExample">
-  <div class="card-body">     
+  <div class="card-body">
 <p class="txt">In India there are various laws at National, State and Local level where your organization is supposed to comply with. We help you to understand applicability of these laws to your business, liaison with Regulatory, Government authorities and ensure your organization is complying with the necessary statutes. Drafting of agreements, MoUs, offers and communications are important from legal and compliance point of view. We consult in drafting, vetting and registration of various important documents</p>
 <ul class="list">The business registrations / license involves –
 <li>PAN – Permanent Account Number</li>
@@ -196,12 +196,12 @@
   <div class="card-header" role="tab" id="headingFour">
   <h4 class="card-title">
   <a class="collapsed" data-toggle="collapse" aria-expanded="false" href="#four" aria-controls="four">
-  <span></span><strong>Process Set-up</strong> 
+  <span></span><strong>Process Set-up</strong>
   </a>
   </h4>
-  </div>    
+  </div>
   <div id="four" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordionExample">
-  <div class="card-body">     
+  <div class="card-body">
   <p class="txt">We provide the consultancy services for starting a new business, opening new branches, expansion of existing business, setting up the process flow and training of new staff for necessary activities.</p>
   <ul class="list">Steps Involved in process setup -
     <li>Understanding / Analysis of your business model</li>
@@ -219,10 +219,10 @@
     <a class="collapsed top" data-toggle="collapse" aria-expanded="false" href="#five" aria-controls="five">
       <span></span><strong>GST</strong>
     </a>
-    </h4> 
-   </div>    
+    </h4>
+   </div>
     <div id="five" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordionExample">
-    <div class="card-body">     
+    <div class="card-body">
     <p class="txt"> GST has replaced most Central and State level indirect taxes like VAT, Service tax, Excise etc from 1st July, 2017. We understand your business products and transactions and consult in GST applicability. Along with consulting we extend our services to GST compliant accounting, filing of GST returns and GST audit.</p>
     <ul class="list">Main services under GST are –
       <li>GST registration</li>
@@ -251,11 +251,11 @@
       <span></span><strong> Project & Retail Finance</strong>
       </a>
       </h4>
-      </div>    
+      </div>
      <div id="six" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordionExample">
-      <div class="card-body">     
+      <div class="card-body">
       <p class="txt">Financing a business at best cost is of utmost importance. We understand your requirement and provide best suitable, economical option to fulfill your requirements. We have internal team for documentation and appraisal of your requirements. We have tie-ups with licensed consultants for legal and technical aspects.Our partner CA Vaibhav R Mayur has 5 years banking experience and other employees with rich experience from credit appraisal, documentation, legal and technical aspects. Since 2013 till December-2017, we have successfully consulted and disbursed proposals having total value over 100 Crores.</p>
-      <ul class="list">Our services includes – 
+      <ul class="list">Our services includes –
         <li>Consulting – Strategic project finance</li>
         <li>Preparation of Project report / CMA</li>
         <li>Documentation</li>
@@ -269,7 +269,7 @@
         <li>External Commercial Borrowings (ECB) Certification</li>
       </ul>
       </div>
-      </div>           
+      </div>
     </div>
 
       <div class="card">
@@ -279,9 +279,9 @@
       <span></span> <strong>NRI Services</strong>
       </a>
     </h4>
-    </div>    
+    </div>
     <div id="seven" class="collapse" role="tabpanel" aria-labelledby="headingSeven" data-parent="#accordionExample">
-    <div class="card-body">     
+    <div class="card-body">
     <ul class="list">We conduct the following types of audits-
       <li>Registration for tax purpose (PAN / TAN / GST)</li>
       <li>Tax planning for planned transaction</li>
@@ -290,7 +290,7 @@
       <li>Filing Income Tax return</li>
       <li>Consulting on tax saving options</li>
     </ul>
-    </div> 
+    </div>
     </div>
     </div>
 
@@ -301,9 +301,9 @@
       <span></span><strong>Payroll Service</strong>
       </a>
       </h4>
-    </div>    
+    </div>
     <div id="eight" class="collapse" role="tabpanel" aria-labelledby="headingEight" data-parent="#accordionExample">
-  <div class="card-body">     
+  <div class="card-body">
 <ul class="list">
  <li>Payroll Processing</li>
  <li>Staff tax planning and managing investment declaration for TDS purpose </li>
@@ -316,7 +316,7 @@
 </div>
 </div>
 
-  
+
 <div class="card">
    <div class="card-header" role="tab" id="headingNine">
     <h4 class="card-title" style="margin-bottom: 20px">
@@ -324,9 +324,9 @@
       <span></span><strong>Subsidy Consulting</strong>
       </a>
       </h4>
-    </div>    
+    </div>
     <div id="nine" class="collapse" role="tabpanel" aria-labelledby="headingNine" data-parent="#accordionExample">
-  <div class="card-body">     
+  <div class="card-body">
 <ul class="list">We offer consultancy in –
  <li>Central Government – Capital investment subsidy</li>
  <li>Central Government – Textile Industry’s subsidy </li>
@@ -346,10 +346,10 @@
       <span></span><strong>RERA (Real Estate Regulatory Authority)</strong>
       </a>
       </h4>
-    </div>    
+    </div>
     <div id="ten" class="collapse show" role="tabpanel" aria-labelledby="headingTen" data-parent="#accordionExample">
-  <div class="card-body"> 
-  <p class="txt">We aims at providing all services under The Real Estate ( Regulation & Development ) Act, 2016 to the promoters , agents including consultancy services to various stakeholders from registration of projects and all other matters, related and ancillary to the registration of projects.</p>    
+  <div class="card-body">
+  <p class="txt">We aims at providing all services under The Real Estate ( Regulation & Development ) Act, 2016 to the promoters , agents including consultancy services to various stakeholders from registration of projects and all other matters, related and ancillary to the registration of projects.</p>
 <ul class="list">Our services includes -
  <li>Consultation</li>
  <li>Preparation of Quarterly CA certificates </li>
@@ -372,11 +372,11 @@
 </div>
 
 
-                  
-     
-        
-       
-       
+
+
+
+
+
   @include('weblayout.footer')
 </body>
 </html>

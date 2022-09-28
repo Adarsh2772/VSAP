@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-<!-- Mirrored from demo.hasthemes.com/financo-preview/financo/blog-left-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Nov 2020 05:50:10 GMT -->
+
 <head>
 
         <meta charset="utf-8">
@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Favicon Icon -->
-         <link rel="shortcut icon" type="image/gif" href="{{asset('/dist/img/caicon.png')}}">
+         <link rel="shortcut icon" type="image/gif" href="{{asset('/ dist/img/logo.jpg')}}">
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
