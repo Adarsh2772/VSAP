@@ -155,15 +155,15 @@
      <div class="single-footer-widget mt-sm-30">
       <h3>CONTACT US</h3>
          <div class="footer-contact-info">
-            <img src="/website/img/icons/f-map.png" alt="">
+            <img src="{{ asset('website/img/icons/f-map.png') }}" alt="">
             <span class="block">PIMPRI OFFICE: ASPIRO, Office No. 102 Pimpri Station Road Opp. THYSSENKRUPP, Pimpri,Pune - 411 018</span>
          </div>
          <div class="footer-contact-info">
-          <img src="/website/img/icons/f-phone.png" alt="" style="margin-top: -10px;">
+          <img src="{{ asset('website/img/icons/f-phone.png') }}" alt="" style="margin-top: -10px;">
             <span class="block">Office No. : 020-27420096/97</span>
          </div>
         <div class="footer-contact-info">
-             <img src="/website/img/icons/f-globe.png" alt="">
+             <img src="{{ asset('website/img/icons/f-globe.png') }}" alt="">
             <span class="block">Email : vsap.company@gmail.com<br>
                                 Web : vsap.co.in</span>
         </div>

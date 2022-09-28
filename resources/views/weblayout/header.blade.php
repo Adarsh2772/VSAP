@@ -104,7 +104,7 @@
      <nav>
         <ul>
         <li><a href="/">HOME</a></li>
-        <li><a href="/">ABOUT US</a>
+        <li><a href="#">ABOUT US</a>
           <ul class="submenu">
           <li><a href="/partner2">OUR PARTNERS</a></li>
          <!--  <li><a href="/client2">OUR CLIENTS</a></li> -->

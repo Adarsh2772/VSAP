@@ -152,7 +152,7 @@
        <div class="single-team-member">
          <div class="member-image">
            <a href="#" class="block">
-            <img src="{{asset('upload/'.$partners->ca_img.'')}}" alt="" class="img1">
+            <img src="{{asset('/storage/CareerDocuments/'.$partners->ca_img.'')}}" alt="" class="img1">
            </a>
          </div>
          <div class="member-text">
