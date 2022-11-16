@@ -103,7 +103,7 @@
        <div class="information-text">
        <h2 style="margin-bottom: 20px">Welcome to VSAP</h2>
         <p style="text-align: justify; ">We are a professional CA firm established in 2013 having offices in Pimpri, Pune, Ahmednagar & Shirpur in Dhule district having staff strength of 26. Our firm V S A P stands for CA Vaibhav R Mayur, CA Sachin B Malpani, CA Swapnil Rathi and CA Akshay Bihani. </p>
-         <p style="text-align: justify;">We provide our services to various sectors viz. agricultural, banking, co-operative, engineering, FMCG, manufacturing, power, pharmaceutical, real estate, etc. We have started our services from consulting in direct & indirect taxation and auditing. Now in 2019, within a span of 6 years we have expended our services’ portfolio by compliance on Real Estate Regulation Act (RERA), Co-Operative societies and banks, international/NRI taxation & certification, internal auditing, project financing, planning & implementation of new projects and subsidy consultation. </p>
+         <p style="text-align: justify;">We provide our services to various sectors viz. agricultural, banking, co-operative, engineering, FMCG, manufacturing, power, pharmaceutical, real estate, etc. We have started our services from consulting in direct & indirect taxation and auditing. Now in 2022, within a span of 9 years we have expended our services’ portfolio by compliance on Real Estate Regulation Act (RERA), Co-Operative societies and banks, international/NRI taxation & certification, internal auditing, project financing, planning & implementation of new projects and subsidy consultation. </p>
 
      </div>
       <div class="information-chart" >
