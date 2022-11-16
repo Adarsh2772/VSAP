@@ -160,11 +160,11 @@
          </div>
          <div class="footer-contact-info">
           <img src="{{ asset('website/img/icons/f-phone.png') }}" alt="" style="margin-top: -10px;">
-            <span class="block">Office No. : 020-27420096/97</span>
+            <span class="block">Office No. : +91 9322120781</span>
          </div>
         <div class="footer-contact-info">
              <img src="{{ asset('website/img/icons/f-globe.png') }}" alt="">
-            <span class="block">Email : vsap.company@gmail.com<br>
+            <span class="block">Email : info@vsap.co.in<br>
                                 Web : vsap.co.in</span>
         </div>
      </div>

@@ -83,14 +83,14 @@
                 <div class="header-info">
                 <img src="{{asset('/website/img/icons/phone.png')}}" alt="">
                     <div class="header-info-text">
-                        <h4>020 27420096/97</h4>
+                        <h4>+91 9322120781</h4>
                             <span>We are open 10 am - 7pm</span>
                     </div>
                 </div>
                 <div class="header-info">
                     <img src="{{asset('/website/img/icons/message.png')}}" alt="">
                     <div class="header-info-text">
-                        <h4>vsap.company@gmail.com</h4>
+                        <h4>info@vsap.co.in</h4>
                         <span>You can mail us</span>
                     </div>
                 </div>
