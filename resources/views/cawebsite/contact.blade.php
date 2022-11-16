@@ -118,7 +118,7 @@
     </div>
 
 
-    <div class="bg-light fix" style="margin-left:30px">
+    <div class="bg-light fix">
         <div class="row">
             <div class="col-12">
                 <div class="container msg1">
@@ -126,7 +126,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="margin-bottom: 20px; margin-right: -120px;padding-left:5px;">
+        <div class="row" style="margin-bottom: 20px; margin-right: -120px;padding-left:2%;">
             <div class="col-md-4 area head1">
                 <h5 style="color:#053b5adb;"><b>Head Office</b></h5>
                 <br>
