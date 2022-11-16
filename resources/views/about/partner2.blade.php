@@ -255,7 +255,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="container msg1">
-                        <h4 class="branch"style="text-align: center;color:#053b5adb;">Our Associate</h4>
+                        <h4 class="branch"style="text-align: center;color:#053b5adb;margin-left: -10%;margin-bottom: -28px;">Our Associate</h4>
                     </div>
                 </div>
             </div>
