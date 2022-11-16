@@ -58,10 +58,11 @@ class HomeController extends Controller
   //   }
      public function partner()
     {
-        $partner = Partner::all();
+        $partner = Partner::where('ispartner', 1)->get();
+        $associate = Partner::where('ispartner', 0)->get();
          $footers = Footer::all();
 
-         return view('about.partner2', compact('partner','footers'));
+         return view('about.partner2', compact('partner','footers', 'associate'));
 
     }
 
