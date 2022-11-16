@@ -76,7 +76,7 @@
             <div class="col-lg-12">
             <div class="logo-wrapper">
             <div class="logo">
-                <a href="#"><img src="{{asset('/dist/img/calogo.png')}}" alt="CA"  class="calogo" /></a>
+                <a href="/"><img src="{{asset('/dist/img/calogo.png')}}" alt="CA"  class="calogo" /></a>
             </div>
             </div>
                 <div class="header-main-content">
