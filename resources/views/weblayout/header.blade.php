@@ -91,7 +91,7 @@
                     <img src="{{asset('/website/img/icons/message.png')}}" alt="">
                     <div class="header-info-text">
                         <h4>info@vsap.co.in</h4>
-                        <span>You can mail us</span>
+                        {{-- <span>You can mail us</span> --}}
                     </div>
                 </div>
                 </div>
